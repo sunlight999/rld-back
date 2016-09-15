@@ -1,0 +1,534 @@
+{
+    "data": [
+    {
+
+    "subject" : "Javascript est un langage ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Compilé",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Interprété",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Compilé et interprété",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Ni compilé ni interprété",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "En JavaScript la structure d'un objet s'appelle:",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "son corps",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "sa classe",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "son prototype",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "son squelette",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Une variable en Javascript peut être déclarée",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "seulement avec le mot-clé Object",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "seulement avec le mot-clé var",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "seulement avec le mot-clé let",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "seulement avec les mots-clé var ou let",
+
+            "value" : "4",
+
+            "isAnswer" : true
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Quel mot clé permet d'accéder au tableau d'arguments d'une fonction ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "params",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "arguments",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "var",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "args",
+
+            "value" : "4",
+
+            "isAnswer" : true
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "JSON signifie...",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Java Script Object Native",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Just Simple Object Number",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Java Script Object Notation",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Java Script Order Naming",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Une variable déclarée dans un script JS en dehors de toute fonction (var a='toto';) appartient à quel contexte ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "aucun contexte",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "l'objet window",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "le contexte du script ",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "le contexte local",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "En JavaScript on peut accéder au DOM HTML c'est-à-dire au",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Direct Object Monitor",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Document Object Model",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Down On Mouse",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Detailed Object Manager",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "L'objet du DOM représentant la page en cours d'affichage c'est",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "document",
+
+            "value" : "1",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "window",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "page",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "frame",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+        {
+
+    "subject" : "Quelle méthode n'est pas une méthode de recherche du DOM ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "getElementById",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "getElementsByName",
+
+            "value" : "2",
+
+            "isAnswer" :  true
+
+        },
+
+        {
+
+            "title" : "getElementsByTagName",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "getElementByClassName",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Dans le DOM quelle propriété d'un champ Input permet de récupérér sa valeur ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "value",
+
+            "value" : "1",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "string",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "text",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "data",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    }
+ ]
+}

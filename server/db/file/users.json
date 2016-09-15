@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Louis",
+            "surname": "Vigouroux",
+            "firstname": "Louis",
+            "relievers":[{"id":2,"category":"relocation"}]
+            
+        },
+        {
+            "id": 2,
+            "name": "Pierre",
+            "surname": "Vigouroux",
+            "firstname": "Pierre",
+            
+        }
+    ]
+}

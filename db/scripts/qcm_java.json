@@ -1,0 +1,1170 @@
+{
+    "data": [
+    {
+
+    "subject" : "JAVA est un langage ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Compilé",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Interprété",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Compilé et interprété",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Ni compilé ni interprété",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Quelle phrase au sujet de Java est correcte ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "En Java, les types de base ne sont pas des objets",
+
+            "value" : "1",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Java supporte l'héritage multiple entre les classes",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "En Java, on peut affecter soi-même l'adresse d'un pointeur",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Java supporte la surcharge des opérateurs",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Comment indiquer qu'une classe A hérite d'une classe B ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "class A ::B",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "class A extends B",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "class A implements B",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "class A inherit B",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Que signifie le mot clef 'static' associé à un attribut ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Que la valeur de cet attribut est constante",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Que cet attribut n'est visible que dans la classe où il est défini",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Que cet attribut sera toujours passé par valeur",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Que cet attribut a une valeur unique pour toutes les instances de la classe",
+
+            "value" : "4",
+
+            "isAnswer" : true
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Au sujet du mot clef 'abstract', quelle assertion est fausse ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Une classe abstraite ne peut être instanciée",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une méthode abstraite n'a pas d'implémentation",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une classe abstraite n'a pas forcément de classe fille",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une classe abstraite doit contenir au moins une méthode abstraite",
+
+            "value" : "4",
+
+            "isAnswer" : true
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Child est une classe héritant de la classe Parent. myChild et myParent sont des instances respectivement de Child et Parent. Quel code ne compile pas ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "'Parent p = new Child();'",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "'myChild = (MyChild)myParent;'",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "'myChild = myParent;'",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "'myParent = myChild;'",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Dans quel package se trouvent les classes standard de Java",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "java.core",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "java.standard",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "java.lang",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "java.framework",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Qu'est-ce que la Sandbox ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Un espace d'exécution limitant les droits du code Java",
+
+            "value" : "1",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Une librairie Java de composants graphiques",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une méthode de conception Java",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Un outil du JDK permettant de développer des Javabeans",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+        {
+
+    "subject" : "Quelle est l'assertion qui n'est pas une amélioration du JDK 1.5 ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "L'autoboxing permet de transformer automatiquement une variable de type primitif en un objet du type wrapper correspondant",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Les métadonnées, standardise l'ajout d'annotation dans le code",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "L'API java.nio met à disposition quatre nouvelles familles de classes employées pour les opérations E/S asynchrones sur des threads",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Les generics permettent d'accroître la lisibilité du code et surtout de renforcer la sécurité du code grâce à un renforcement du typage",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Une interface en Java peut contenir :",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Des déclarations de méthodes et de constantes",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Des déclarations de méthodes",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Des déclarations de méthodes et de méthodes statiques",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Des déclarations de méthodes et de constructeurs",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Pour avoir un commentaire sur une ligne, on place en début de ligne le(s) caractère(s):",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "//",
+
+            "value" : "1",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "#",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "/*",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "%",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Pour avoir un commentaire sur une ligne, on place en début de ligne le(s) caractère(s):",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "//",
+
+            "value" : "1",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "#",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "/*",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "%",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Lequel n'a pas sa place parmi ces choix :",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "instanceof",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "select",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "for",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "volatile",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Que signifie le mot clef 'transient' associé à un attribut ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Rend cet attribut invisible hors du package où il est défini",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Cet attibut est à la fois un type de base et un objet",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Permet de ne pas le sauvegarder quand on utilise le mécanisme de sérialisation",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Rien de tout ça",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Lequel de ces identificateurs est incorrect :",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "MonNom",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "mon_nom",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "mon$nom",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "2noms",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Pour spécifier que la valeur d'une variable ne peut changer, on la déclare comme une constante avec le mot réservé :",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "final",
+
+            "value" : "1",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "finalize",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "const",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "static",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Combien d’instances de la classe A crée le code suivant ? A x,u,v; x=new A(); A y=x; A z=new A();",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Trois",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Deux",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Aucune",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Quelle assertion est vraie en Java ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Une classe peut implémenter plusieurs classes et peut étendre plusieurs interfaces",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une classe peut implémenter plusieurs classes mais doit étendre une seule interfaces",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une classe peut implémenter plusieurs interfaces mais doit étendre une seule classe",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Une classe doit implémenter une seule interface et étendre une seule classe",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Quelle différence existe t-il entre les interfaces List et Set",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Une List peut contenir une référence null, pas un Set",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Un Set peut contenir deux fois le même élément, pas une List",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Un Set peut contenir une référence null, pas une List",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une List peut contenir deux fois le même élément, pas un Set",
+
+            "value" : "4",
+
+            "isAnswer" : true
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "En Java, un objet qui n’est plus référencé...",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Est immédiatement détruit par la JVM (Java Virtual Machine, ou machine virtuelle)",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Reste présent en mémoire et est susceptible d’engendrer une « fuite »",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Peut être détruit ou non, au bon vouloir de la JVM",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "est détruit au bout de 10 secondes par la JVM",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Si la classe B hérite de A qui implémente l'interface K, je peux écrire :",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "'B i = (K) new A ( );'",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "'A i = new K( );'",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "'B i = new A ( );'",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "K i = new B ( );",
+
+            "value" : "4",
+
+            "isAnswer" : true
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Laquelle de ces affirmations sur les constructeurs est vraie ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Les constructeurs ne doivent pas avoir des arguments si la classe mère n'a pas de constructeur avec des arguments",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Les constructeurs ne sont pas hérités",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Les constructeurs ne peuvent pas être surchargés",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "La première déclaration de chaque constructeur est un appel égal à super() ou this()",
+
+            "value" : "4",
+
+            "isAnswer" : true
+
+        }
+
+    ]
+
+    }
+ ]
+}

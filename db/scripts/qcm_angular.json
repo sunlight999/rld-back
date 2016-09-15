@@ -1,0 +1,534 @@
+{
+    "data": [
+    {
+
+    "subject" : "Qu'est ce qu'une directive AngularJS?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "un ensemble d'instructions pour lancer une application AngularJS",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "des attributs extensions de HTML avec le préfixe ng-",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "des balises extensions de HTML avec le préfixe ng-",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "une fonction d'affichage d'un composant graphique d'AngularJS",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "A quoi sert ng-app dans AngularJS ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "c'est une directive qui sert à déclarer l'application",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "c'est une directive qui sert à appliquer un style CSS sur un tag Html",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "c'est une directive qui sert à initialiser l'application",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "c'est une directive qui sert à relier un tag Html à une application AngularJS",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "A quoi sert ng-view dans AngularJS ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "c'est une directive qui sert à définir une vue dans AngularJS",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "c'est une directive qui sert afficher les différentes vues définies avec le module de routage",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "c'est une directive qui sert à afficher une vue dans AngularJS",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "c'est une directive qui sert à afficher les valeurs des variables déclarées dans le controlleur",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Quelle assertion à propos du scope de AngularJS est fausse ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Le scope fait le lien entre le HTML(vue) et le JS(controlleur).",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Le scope est un objet qui a des propriétés et méthodes.",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "le scope est disponible pour à la fois la vue et le controlleur.",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "le scope définit la validité d'une directive pour des composants de l'application.",
+
+            "value" : "4",
+
+            "isAnswer" : true
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Quelle est la différence entre $apply() et $digest() ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "$apply est une méthode de l'objet scope pour appliquer des directives à la vue.e",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "digest peut prendre une fonction comme argument.",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "$apply appelle $digest.",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "$digest appelle $apply.",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Lequel des opérateurs ci dessous  n'est pas un filter d'AngularJS ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "date",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "orderBy",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "apply",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "lowercase",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Quelle assertion est fausse à propos d'un module dans AngularJS ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "un module AngularJS définit une application.",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Le module est un conteneur pour les différentes parties de l'application.",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Les controllers sont définis en dehors d'un module.",
+
+            "value" : "3",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Un module est créé en utilisant la fonction angular.module",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "Quelle assertion est vraie à propos d'une factory en AngularJS ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "c'est un patron de conception pour instancier des objets.",
+
+            "value" : "1",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "Une factory permet de déclarer des services AngularJS.",
+
+            "value" : "2",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une factory ne dépend pas de services AngularJS.",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Une factory peut être déclarée au niveau d'un controlleur.",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+        {
+
+    "subject" : "Qu'est ce qu'un service en AngularJS ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "Un service est une méthode définie au niveau d'un controlleur accessible depuis d'autre controlleurs. ",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Un service est une fonction singleton pour la couche métier de l'application qui fournit une API.",
+
+            "value" : "2",
+
+            "isAnswer" :  true
+
+        },
+
+        {
+
+            "title" : "Un service une méthode qui a pour but de construire des objets.",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "Un service est une API web externe configurée dans l'application.",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    },
+    {
+
+    "subject" : "A quoi sert l'objet Promise ?",
+
+    "level" : "easy",
+
+    "type" : "single_choice",
+
+    "possibleChoice" : [
+
+        {
+
+            "title" : "c'est un objet que met à disposition Angular pour exécuter une action de manière asynchrone.",
+
+            "value" : "1",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "cet objet représente le résultat futur d’une action exécutée de manière asynchrone.",
+
+            "value" : "2",
+
+            "isAnswer" : true
+
+        },
+
+        {
+
+            "title" : "cet objet représente la valeur future retournée par une fonction exécutée de manière asynchrone.",
+
+            "value" : "3",
+
+            "isAnswer" : false
+
+        },
+
+        {
+
+            "title" : "cet objet représente la valeur retournée par une fonction exécutée de manière synchrone.",
+
+            "value" : "4",
+
+            "isAnswer" : false
+
+        }
+
+    ]
+
+    }
+ ]
+}

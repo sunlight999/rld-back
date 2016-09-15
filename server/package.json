@@ -1,0 +1,36 @@
+{
+  "name": "rld-back",
+  "version": "0.0.0",
+  "description": "Relieved back end server",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "cors": "^2.7.1",
+    "express": "^4.11",
+    "express-jwt": "^3.4.0",
+    "mongodb": "^2.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunlight999/rld-back.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "comment",
+    "example"
+  ],
+  "author": "louvig",
+  "bugs": {
+    "url": "https://louvig.wordpress.com/"
+  },
+  "homepage": "https://louvig.wordpress.com/",
+  "engines": {
+    "node": "0.12.x"
+  }
+}

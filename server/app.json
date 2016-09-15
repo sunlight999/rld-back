@@ -1,0 +1,13 @@
+{
+  "name": "Relieved back end server",
+  "description": "provides API to Rl user and Rl date",
+  "keywords": [ "relieved", "back", "api" ],
+  "repository": "https://github.com/sunlight999/rld-back.git",
+  "logo": "https://facebook.github.io/react/img/logo.svg",
+  "website": "https://louvig.wordpress.com/",
+  "success_url": "/",
+  "env" : {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }
+}
+
