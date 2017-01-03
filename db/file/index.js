@@ -1,7 +1,5 @@
-var fs = require('fs');
-var path = require('path');
+
 var USER_FILE = path.join(__dirname, 'users.json');
-var DATE_FILE = path.join(__dirname, 'dates.json');
 
 var handleError=function(err){
      console.error(err);
@@ -18,16 +16,8 @@ findDocuments(db,collection,{"_id":id}, callback);
 
 var findDocuments = function(db,collection,filter, callback) {
     var file=null;
-    var err=null;
-    switch (collection) {
-        case 'rl_user':
-            file=USER_FILE;
-            break;
-        case 'rl_date':
-            file=DATE_FILE;
-            break;    
-        default:
-            
+    if(collection=='rl_user'){
+        file=USER_FILE;
     }
     if(file==null){
         err="file name not found";
@@ -43,7 +33,10 @@ var findDocuments = function(db,collection,filter, callback) {
    
   });
  
-  }
+  });
+});
+}
+
 
 var FileDb = {findAll:findAllDocuments,findById:findDocumentsById,error:handleError};
 

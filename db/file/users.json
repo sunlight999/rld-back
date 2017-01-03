@@ -14,15 +14,8 @@
             "name": "Pierre",
             "surname": "Vigouroux",
             "firstname": "Pierre",
-            "availability":[{"timesheet":[{"day":7,"beginning":"8:30","end":"16:30"},],"category":"relocation"}]
+            "availability":[{"timesheet":[{"day":1,"beginning":"8:30","end":"16:30"},],"category":"relocation"}]
             
-        },
-        {
-            "id": 3,
-            "name": "Francois",
-            "surname": "Lacombe",
-            "firstname": "Francois",
-            "availability":[{"timesheet":[{"day":6,"beginning":"8:30","end":"16:30"},],"category":"relocation"}]
         }
     ]
 }
